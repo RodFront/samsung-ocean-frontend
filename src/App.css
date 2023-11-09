@@ -5,6 +5,7 @@
   text-align: center;
   background: #f8f8f8;
   transition: all 0.1s ease-in-out;
+  display: inline-block;
 }
 
 .card:hover{
