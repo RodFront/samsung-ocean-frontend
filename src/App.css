@@ -6,6 +6,7 @@
   background: #f8f8f8;
   transition: all 0.1s ease-in-out;
   display: inline-block;
+  background: black;
 }
 
 .card:hover{
@@ -24,6 +25,7 @@
 
 .card > h2{
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: white;
   
 }
 
