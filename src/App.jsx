@@ -9,19 +9,23 @@ function App() {
   }
   const item2 = {
     name: "Rick Sanchez",
-    imageUrl: "https://rickandmortyapi.com/api/character/avatar/1.jpeg"
+    imageUrl: "https://rickandmortyapi.com/api/character/avatar/2.jpeg"
   }
 
-  
-  return (
-    <>
-    
-     <br />
-     
-     <Card item={item1} />
-     <Card item={item2} />
-    </>
-  )
-}
+  const item3 = {
+    name: "Sumer Smith",
+    imageUrl: "https://rickandmortyapi.com/api/character/avatar/3.jpeg"
+  }
 
-export default App
+    const items = [item1, item2, item3]
+  
+    return (
+      <>
+        {items.map(function (element) {
+          return <Card item={element} />
+        })}
+      </>
+    )
+  }
+  
+  export default App;
